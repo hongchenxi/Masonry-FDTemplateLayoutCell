@@ -13,6 +13,12 @@
 		15D156311DEEC5A200AAB890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D1562F1DEEC5A200AAB890 /* Main.storyboard */; };
 		15D156331DEEC5A200AAB890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D156321DEEC5A200AAB890 /* Assets.xcassets */; };
 		15D156361DEEC5A200AAB890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D156341DEEC5A200AAB890 /* LaunchScreen.storyboard */; };
+		15D1563E1DEEC5B000AAB890 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 15D1563D1DEEC5B000AAB890 /* data.json */; };
+		15D156441DEECCB100AAB890 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D156431DEECCB100AAB890 /* FeedTableViewCell.m */; };
+		15D156471DEED2E900AAB890 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D156461DEED2E900AAB890 /* Feed.m */; };
+		15D1564D1DEEDCA700AAB890 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1564A1DEEDCA700AAB890 /* YYFPSLabel.m */; };
+		15D1564E1DEEDCA700AAB890 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1564C1DEEDCA700AAB890 /* YYWeakProxy.m */; };
+		76C10AC4FD04A403AD3608C9 /* libPods-MasonryAndFDTemplateLayoutCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D83D22D14A6E098D029D054 /* libPods-MasonryAndFDTemplateLayoutCell.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		15D156321DEEC5A200AAB890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15D156351DEEC5A200AAB890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15D156371DEEC5A200AAB890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D1563D1DEEC5B000AAB890 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		15D156421DEECCB100AAB890 /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		15D156431DEECCB100AAB890 /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		15D156451DEED2E900AAB890 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		15D156461DEED2E900AAB890 /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		15D156491DEEDCA700AAB890 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		15D1564A1DEEDCA700AAB890 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		15D1564B1DEEDCA700AAB890 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		15D1564C1DEEDCA700AAB890 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		3D83D22D14A6E098D029D054 /* libPods-MasonryAndFDTemplateLayoutCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryAndFDTemplateLayoutCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3BB0C99AF911F24AB7FDE4 /* Pods-MasonryAndFDTemplateLayoutCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryAndFDTemplateLayoutCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryAndFDTemplateLayoutCell/Pods-MasonryAndFDTemplateLayoutCell.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBA5699C092986B4A881A97 /* Pods-MasonryAndFDTemplateLayoutCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryAndFDTemplateLayoutCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryAndFDTemplateLayoutCell/Pods-MasonryAndFDTemplateLayoutCell.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C10AC4FD04A403AD3608C9 /* libPods-MasonryAndFDTemplateLayoutCell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,8 @@
 			children = (
 				15D156251DEEC5A200AAB890 /* MasonryAndFDTemplateLayoutCell */,
 				15D156241DEEC5A200AAB890 /* Products */,
+				1BBED0678DEB62F3D8810582 /* Pods */,
+				E9710819E02B73E0E657E63A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +79,20 @@
 		15D156251DEEC5A200AAB890 /* MasonryAndFDTemplateLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
+				15D156481DEEDCA700AAB890 /* YYFPSLabel */,
 				15D156291DEEC5A200AAB890 /* AppDelegate.h */,
 				15D1562A1DEEC5A200AAB890 /* AppDelegate.m */,
 				15D1562C1DEEC5A200AAB890 /* ViewController.h */,
 				15D1562D1DEEC5A200AAB890 /* ViewController.m */,
+				15D156451DEED2E900AAB890 /* Feed.h */,
+				15D156461DEED2E900AAB890 /* Feed.m */,
+				15D156421DEECCB100AAB890 /* FeedTableViewCell.h */,
+				15D156431DEECCB100AAB890 /* FeedTableViewCell.m */,
 				15D1562F1DEEC5A200AAB890 /* Main.storyboard */,
 				15D156321DEEC5A200AAB890 /* Assets.xcassets */,
 				15D156341DEEC5A200AAB890 /* LaunchScreen.storyboard */,
 				15D156371DEEC5A200AAB890 /* Info.plist */,
+				15D1563D1DEEC5B000AAB890 /* data.json */,
 				15D156261DEEC5A200AAB890 /* Supporting Files */,
 			);
 			path = MasonryAndFDTemplateLayoutCell;
@@ -79,6 +106,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		15D156481DEEDCA700AAB890 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				15D156491DEEDCA700AAB890 /* YYFPSLabel.h */,
+				15D1564A1DEEDCA700AAB890 /* YYFPSLabel.m */,
+				15D1564B1DEEDCA700AAB890 /* YYWeakProxy.h */,
+				15D1564C1DEEDCA700AAB890 /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		1BBED0678DEB62F3D8810582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B3BB0C99AF911F24AB7FDE4 /* Pods-MasonryAndFDTemplateLayoutCell.debug.xcconfig */,
+				FDBA5699C092986B4A881A97 /* Pods-MasonryAndFDTemplateLayoutCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9710819E02B73E0E657E63A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D83D22D14A6E098D029D054 /* libPods-MasonryAndFDTemplateLayoutCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15D1563A1DEEC5A200AAB890 /* Build configuration list for PBXNativeTarget "MasonryAndFDTemplateLayoutCell" */;
 			buildPhases = (
+				7BCF6FEB9ACD648B319CF5F8 /* [CP] Check Pods Manifest.lock */,
 				15D1561F1DEEC5A200AAB890 /* Sources */,
 				15D156201DEEC5A200AAB890 /* Frameworks */,
 				15D156211DEEC5A200AAB890 /* Resources */,
+				53AFE1A7BFDF3418CED90BFA /* [CP] Embed Pods Frameworks */,
+				F9F79ACDDD4ABCEB391DEB75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +168,7 @@
 				TargetAttributes = {
 					15D156221DEEC5A200AAB890 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M6BZ7CAAX7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,17 +199,70 @@
 				15D156361DEEC5A200AAB890 /* LaunchScreen.storyboard in Resources */,
 				15D156331DEEC5A200AAB890 /* Assets.xcassets in Resources */,
 				15D156311DEEC5A200AAB890 /* Main.storyboard in Resources */,
+				15D1563E1DEEC5B000AAB890 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53AFE1A7BFDF3418CED90BFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryAndFDTemplateLayoutCell/Pods-MasonryAndFDTemplateLayoutCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BCF6FEB9ACD648B319CF5F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F79ACDDD4ABCEB391DEB75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryAndFDTemplateLayoutCell/Pods-MasonryAndFDTemplateLayoutCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15D1561F1DEEC5A200AAB890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D1564D1DEEDCA700AAB890 /* YYFPSLabel.m in Sources */,
+				15D1564E1DEEDCA700AAB890 /* YYWeakProxy.m in Sources */,
+				15D156471DEED2E900AAB890 /* Feed.m in Sources */,
 				15D1562E1DEEC5A200AAB890 /* ViewController.m in Sources */,
+				15D156441DEECCB100AAB890 /* FeedTableViewCell.m in Sources */,
 				15D1562B1DEEC5A200AAB890 /* AppDelegate.m in Sources */,
 				15D156281DEEC5A200AAB890 /* main.m in Sources */,
 			);
@@ -268,9 +380,12 @@
 		};
 		15D1563B1DEEC5A200AAB890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3BB0C99AF911F24AB7FDE4 /* Pods-MasonryAndFDTemplateLayoutCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6BZ7CAAX7;
 				INFOPLIST_FILE = MasonryAndFDTemplateLayoutCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cx.MasonryAndFDTemplateLayoutCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,9 +394,12 @@
 		};
 		15D1563C1DEEC5A200AAB890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBA5699C092986B4A881A97 /* Pods-MasonryAndFDTemplateLayoutCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6BZ7CAAX7;
 				INFOPLIST_FILE = MasonryAndFDTemplateLayoutCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cx.MasonryAndFDTemplateLayoutCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +425,7 @@
 				15D1563C1DEEC5A200AAB890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
